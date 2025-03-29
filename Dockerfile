@@ -1,4 +1,4 @@
-# Használj hivatalos .NET Core SDK image-t
+# Use official .NET Core SDK image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 EXPOSE 80
@@ -6,11 +6,11 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Mivel a csproj és a Dockerfile is a repo gyökerében található, nem szükséges almappára hivatkozni
+# Since the csproj and Dockerfile are both in the root of the repo, no need to refer to subdirectories
 COPY ["Driving_School.csproj", "./"]
 RUN dotnet restore "Driving_School.csproj"
 
-# Az összes többi fájlt másoljuk a Docker konténerbe
+# Copy the rest of the files to the Docker container
 COPY . . 
 RUN dotnet build "Driving_School.csproj" -c Release -o /app/build
 
