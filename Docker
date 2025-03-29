@@ -4,15 +4,14 @@ WORKDIR /app
 EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
+WORKDIR /app
 
 # Mivel a csproj és a Dockerfile is a repo gyökerében található, nem szükséges almappára hivatkozni
-COPY ["Driving_School.csproj", "./"]  
+COPY ["Driving_School.csproj", "./"]
 RUN dotnet restore "Driving_School.csproj"
 
 # Az összes többi fájlt másoljuk a Docker konténerbe
 COPY . . 
-WORKDIR "/src"
 RUN dotnet build "Driving_School.csproj" -c Release -o /app/build
 
 FROM build AS publish
