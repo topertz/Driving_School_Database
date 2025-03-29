@@ -1,0 +1,20 @@
+# Használj hivatalos .NET Core SDK image-t
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["Driving_School_Database/Driving_School_Database.csproj", "Driving_School_Database/"]
+RUN dotnet restore "Driving_School_Database/Driving_School_Database.csproj"
+COPY . .
+WORKDIR "/src/Driving_School_Database"
+RUN dotnet build "Driving_School_Database.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Driving_School_Database.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Driving_School_Database.dll"]
