@@ -12,20 +12,20 @@ namespace School_Driving.Controllers
         {
             if (conn == null)
             {
-                // A projekt gyˆkÈrkˆnyvt·r·nak biztons·gos meghat·roz·sa
+                // A projekt gy√∂k√©rk√∂nyvt√°r√°nak biztons√°gos meghat√°roz√°sa
                 string? projectRoot = GetProjectRoot();
 
                 if (projectRoot == null)
                 {
-                    throw new InvalidOperationException("Nem siker¸lt meghat·rozni a projekt gyˆkÈrkˆnyvt·r·t!");
+                    throw new InvalidOperationException("Nem siker√ºlt meghat√°rozni a projekt gy√∂k√©rk√∂nyvt√°r√°t!");
                 }
 
                 string dbPath = Path.Combine(projectRoot, "database", "UserDB.sqlite3");
 
                 if (!File.Exists(dbPath))
                 {
-                    Console.WriteLine("HIBA: Az adatb·zis f·jl nem tal·lhatÛ!");
-                    throw new FileNotFoundException("Az adatb·zis nem tal·lhatÛ a megadott helyen.", dbPath);
+                    Console.WriteLine("HIBA: Az adatb√°zis f√°jl nem tal√°lhat√≥!");
+                    throw new FileNotFoundException("Az adatb√°zis nem tal√°lhat√≥ a megadott helyen.", dbPath);
                 }
 
                 conn = new SQLiteConnection($"Data Source={dbPath}");
@@ -45,7 +45,7 @@ namespace School_Driving.Controllers
 
             if (projectRoot == null)
             {
-                throw new InvalidOperationException("Nem siker¸lt meghat·rozni a projekt gyˆkÈrkˆnyvt·r·t!");
+                throw new InvalidOperationException("Nem siker√ºlt meghat√°rozni a projekt gy√∂k√©rk√∂nyvt√°r√°t!");
             }
 
             string dbPath = Path.Combine(projectRoot, "database", "UserDB.sqlite3");
@@ -57,17 +57,23 @@ namespace School_Driving.Controllers
 
         private static string? GetProjectRoot()
         {
-            // A jelenlegi futtat·si kˆnyvt·r
+            // In Docker, the working directory is /app
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        
+            // Check if we're in a Docker environment (path should be '/app' or similar)
+            if (baseDirectory.Contains("/app"))
+            {
+                return "/app"; // Return the base directory inside the Docker container
+            }
+        
+            // For non-Docker environments, go up three levels
             DirectoryInfo? dir = new DirectoryInfo(baseDirectory);
-
-            // H·rom szinttel feljebb lÈpÈs (ha lehetsÈges)
             for (int i = 0; i < 3; i++)
             {
                 if (dir?.Parent == null) return null;
                 dir = dir.Parent;
             }
-
+        
             return dir?.FullName;
         }
     }
