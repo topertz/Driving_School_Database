@@ -1,0 +1,241 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Driving_School.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Driving_School.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\autobusz.png",
+      "PackagePath": "staticwebassets\\images\\autobusz.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\autopalya.png",
+      "PackagePath": "staticwebassets\\images\\autopalya.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\balra.png",
+      "PackagePath": "staticwebassets\\images\\balra.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\balrol.png",
+      "PackagePath": "staticwebassets\\images\\balrol.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\egyiranyu.png",
+      "PackagePath": "staticwebassets\\images\\egyiranyu.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\egyszerre.png",
+      "PackagePath": "staticwebassets\\images\\egyszerre.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\elony.png",
+      "PackagePath": "staticwebassets\\images\\elony.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\elso.png",
+      "PackagePath": "staticwebassets\\images\\elso.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\felvaltva.png",
+      "PackagePath": "staticwebassets\\images\\felvaltva.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\forgalmisavok.png",
+      "PackagePath": "staticwebassets\\images\\forgalmisavok.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\fout.png",
+      "PackagePath": "staticwebassets\\images\\fout.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\gyalogosok.png",
+      "PackagePath": "staticwebassets\\images\\gyalogosok.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\gyerekek.png",
+      "PackagePath": "staticwebassets\\images\\gyerekek.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\haromagu.png",
+      "PackagePath": "staticwebassets\\images\\haromagu.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\hatar.png",
+      "PackagePath": "staticwebassets\\images\\hatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\holanc.png",
+      "PackagePath": "staticwebassets\\images\\holanc.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\jobbkez.png",
+      "PackagePath": "staticwebassets\\images\\jobbkez.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\kanyar.png",
+      "PackagePath": "staticwebassets\\images\\kanyar.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\kanyarodas.png",
+      "PackagePath": "staticwebassets\\images\\kanyarodas.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\kavics.png",
+      "PackagePath": "staticwebassets\\images\\kavics.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\legkisebb.png",
+      "PackagePath": "staticwebassets\\images\\legkisebb.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\legnagyobb.png",
+      "PackagePath": "staticwebassets\\images\\legnagyobb.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\masodik.png",
+      "PackagePath": "staticwebassets\\images\\masodik.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\meghaladas.png",
+      "PackagePath": "staticwebassets\\images\\meghaladas.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\mellekut.png",
+      "PackagePath": "staticwebassets\\images\\mellekut.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\mentoutvonal.png",
+      "PackagePath": "staticwebassets\\images\\mentoutvonal.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\nemzetkozi.png",
+      "PackagePath": "staticwebassets\\images\\nemzetkozi.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\novekedes.png",
+      "PackagePath": "staticwebassets\\images\\novekedes.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\nyil.png",
+      "PackagePath": "staticwebassets\\images\\nyil.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\parkolas.png",
+      "PackagePath": "staticwebassets\\images\\parkolas.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\piros.png",
+      "PackagePath": "staticwebassets\\images\\piros.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\rendor.png",
+      "PackagePath": "staticwebassets\\images\\rendor.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\repulogep.png",
+      "PackagePath": "staticwebassets\\images\\repulogep.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\sav.png",
+      "PackagePath": "staticwebassets\\images\\sav.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\sebessegek.png",
+      "PackagePath": "staticwebassets\\images\\sebessegek.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\sin.png",
+      "PackagePath": "staticwebassets\\images\\sin.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\sorompo.png",
+      "PackagePath": "staticwebassets\\images\\sorompo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\szabaly.png",
+      "PackagePath": "staticwebassets\\images\\szabaly.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\szel.png",
+      "PackagePath": "staticwebassets\\images\\szel.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\szembejovo.png",
+      "PackagePath": "staticwebassets\\images\\szembejovo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\torlodas.png",
+      "PackagePath": "staticwebassets\\images\\torlodas.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\varakozas.png",
+      "PackagePath": "staticwebassets\\images\\varakozas.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\vasut.png",
+      "PackagePath": "staticwebassets\\images\\vasut.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\villamos.png",
+      "PackagePath": "staticwebassets\\images\\villamos.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\zold.png",
+      "PackagePath": "staticwebassets\\images\\zold.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\images\\zsakutca.png",
+      "PackagePath": "staticwebassets\\images\\zsakutca.png"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\questions.json",
+      "PackagePath": "staticwebassets\\questions.json"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\register.css",
+      "PackagePath": "staticwebassets\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\schema.sql",
+      "PackagePath": "staticwebassets\\schema.sql"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Mark\\Documents\\Visual Studio 2022\\oktatasi_szoftver_fejlesztese\\Driving_School\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Driving_School.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Driving_School.props",
+      "PackagePath": "build\\Driving_School.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Driving_School.props",
+      "PackagePath": "buildMultiTargeting\\Driving_School.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Driving_School.props",
+      "PackagePath": "buildTransitive\\Driving_School.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
